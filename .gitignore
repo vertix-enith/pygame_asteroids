@@ -1,0 +1,12 @@
+from logger import log_state
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+game_state.jsonl
+
+# Virtual environments
+.venv
