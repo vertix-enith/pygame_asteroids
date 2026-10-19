@@ -42,7 +42,7 @@ def main():
                 if co.collides_with(check):
                     log_event("asteroid_shot")
                     co.kill()
-                    check.kill()
+                    check.split()
 
         screen.fill("black")
         for object in drawable:
